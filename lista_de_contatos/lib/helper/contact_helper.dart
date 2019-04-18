@@ -91,10 +91,10 @@ class Contact{
 
   Map toMap(){
     Map<String, dynamic> map = {
-      nameColumn: name;
-      emailColumn: email;
-      phoneColumn: phone;
-      imageColumn: image;
+      nameColumn: name,
+      emailColumn: email,
+      phoneColumn: phone,
+      imageColumn: image
     };
     if(id != null)
       map[idColumn] = id;
